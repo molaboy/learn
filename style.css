@@ -1,0 +1,121 @@
+
+body{ background-color: black;
+
+    color: black;
+}
+
+nav{ 
+    color: white;
+    display: flex;
+    flex-direction:row ;
+}
+header{ display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+h4{
+color: white;
+font-size: 25px;
+
+}
+nav a{
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(243, 239, 239);    text-decoration:none;
+    justify-content: space-around;
+}
+
+    nav ul{
+    
+           list-style-type: none;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          text-decoration: none;
+    }
+    nav li{
+        display: flex;
+    }
+
+    nav button{
+        display: flex;
+        text-decoration: none;
+    }
+
+.container section {
+    flex-direction: row;
+    display: fle;
+    color: rgb(240, 228, 235);
+    align-items: right;
+    flex-wrap: wrap;
+}
+
+button{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(209, 14, 216);
+    color: rgb(253, 238, 250);
+      
+}
+
+.left{
+    
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+}
+.left a
+
+{ text-size-adjust: 20px; 
+color: rgb(240, 240, 252);
+margin-left: 20px;
+font-size: 20px;
+
+}
+.right button{margin-left: 50%;}
+
+ p{  font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section div
+{
+    display: fle;
+    flex-wrap: column;
+     
+
+} 
+.container img {
+    width:400px;
+     height:480px;
+    padding-left: 300px;
+}.ew{
+    color: rgb(15, 15, 146);
+    border: 4px;
+    padding-left: 300px;
+    box-shadow: 2px;
+}
+.right ul  
+{
+display: flex;
+flex-direction: row;
+
+}
