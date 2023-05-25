@@ -4,6 +4,10 @@
     <title>start learning</title>
     <link rel="stylesheet" href="style.css">
     </head><style>
+        html{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
 body{ background-color: black;
 
     color: black;
@@ -25,6 +29,8 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
+width: 100%;
+height: 100%;
 
 }
 section {
@@ -36,7 +42,7 @@ section {
 
 h4{
 color: white;
-font-size: 25px;
+font-size: 30px;
 
 }
 nav a{
@@ -57,27 +63,47 @@ nav a{
     nav li{
         display: flex;
     }
+    ul li:hover{ 
+    
+        background-color:blueviolet ;
+     height: 5px;
+    }
 
     nav button{
         display: flex;
         text-decoration: none;
     }
-
 .container section {
     flex-direction: row;
-    display: fle;
+    display: flex;
     color: rgb(240, 228, 235);
     align-items: right;
     flex-wrap: wrap;
 }
 
+nav ul button{
+
+    align-items: left;
+    justify-content: space-around;
+    
+
+}
+
 button{
     
-    display: flex;
+    width: 120px;
+    height: 40px;
     flex-direction: row;
     background-color: rgb(209, 14, 216);
     color: rgb(253, 238, 250);
-      
+      cursor: pointer;
+      border-radius: 17%;
+      margin: left 60px;
+      text-align: center;
+}
+button:hover{background-color: black;
+            box-shadow: inset;
+             
 }
 
 .left{
@@ -98,44 +124,59 @@ font-size: 20px;
 .right button{margin-left: 50%;}
 
  p{  font-size: 18px;
-    color: white;
+    color: rgb(250, 239, 239);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 section div
 {
-    display: fle;
+    display: flex;
     flex-wrap: column;
      
-
+    
 } 
+
 .container img {
     width:400px;
      height:480px;
     padding-left: 300px;
 }.ew{
     color: rgb(15, 15, 146);
-    border: 4px;
-    padding-left: 300px;
-    box-shadow: 2px;
+    border: 40px;
+
+    padding-left: px;
+
+    box-shadow: 200px;
+
+    height: 00px;
+    width: 00px;
+
+    background-color: blueviolet;
+    text-align: center;
+
+
 }
 .right ul  
 {
 display: flex;
 flex-direction: row;
 
-}</style>
+}
+.b{display: flex;
+    margin-left: 400px;
+}.no {margin-bottom:23px;}
+</style>
 <body>
     <header>
  <nav><ul>
-   <img src="logo.png" alt="">
+   <li><p class="no">DO connect</p></li>
   <ul class="left"><li><a href=""></a></li>
         <li><a href="">HOME</a></li>
         <li><a href="">COURSES</a></li>
         <li><a href="">SOCIAL NETWORK</a></li></ul>
  </div>
-     <ul><div class="right">
-        <li><a href=""><button>LOGIN</button></a></li>
-        <li><a href=""><button>REGISTER</button></a></li>
+     
+        <div class="b"><li><a href=""><button>LOGIN</button></a></li>
+            <li><a href=""><button>REGISTER</button></a></li></div>
     
     
 </div>
