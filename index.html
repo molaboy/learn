@@ -43,6 +43,7 @@ section {
 h4{
 color: white;
 font-size: 30px;
+font-style: normal;
 
 }
 nav a{
@@ -64,7 +65,7 @@ nav a{
         display: flex;
     }
     ul li:hover{ 
-    
+      
         background-color:blueviolet ;
      height: 5px;
     }
@@ -164,11 +165,26 @@ flex-direction: row;
 .b{display: flex;
     margin-left: 400px;
 }.no {margin-bottom:23px;}
+
+.sta{    width: 180px;
+    height: 60px;
+    flex-direction: row;
+    background-color: rgb(209, 14, 216);
+    color: rgb(253, 238, 250);
+      cursor: pointer;
+      border-radius: 12%;
+      margin: left 60px;
+      justify-content: center;}
+      .blue{color: blue;}
+      #id{display: flex;
+            margin-bottom: 200px;          
+                      
+                      }
 </style>
 <body>
     <header>
  <nav><ul>
-   <li><p class="no">DO connect</p></li>
+   <p class="no">DO connect</p>
   <ul class="left"><li><a href=""></a></li>
         <li><a href="">HOME</a></li>
         <li><a href="">COURSES</a></li>
@@ -185,30 +201,30 @@ flex-direction: row;
     <main>
 
         <article class="container">
-            <section><div><h4>Learn in-demand skills and <br> network with professionals for your ideal job. <br>                      
-                <br>
-                <br>
-                <br>
+            <section><div><h4>Learn in-demand <span class="blue"> skills</span> and <br><span class="blue">network</span>  with professionals<br for your ideal job.                       
+    
+                
                 <br>
                 <p>DotConnect is a significant platform for South African <br> teenagers that provides networking as well as learning <br> possibilities.Join us today to get your professional path started
                 <br>
                 <br>
                 <br>
                 
-                    <button >start learning</button>
-
-                    <p class="ew" >1500+ User</p>
+                
 
                 </p>           
             </h4>
             </div>
-               <div><img src="pic.JPG" >
+               <div><img src="pic.jpg" >
          </div>     
           </section>
         </article>
+       <div id="id"><button class="sta">start learning</button>
+
+        <p class="ew" >1500+ User</p></div> 
 
     </main>
-
+<script></script>
 </body>
 <footer></footer>
 
